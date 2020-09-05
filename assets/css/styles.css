@@ -1,0 +1,63 @@
+body{
+    background-color: #fff;
+}
+
+.message-container {
+    max-width: 68.75rem;
+    background-color: #434175;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.375rem;
+    margin-bottom: 1.25rem;
+    color: white;
+    border-radius: 20px;
+    height: 40rem;
+    border: 0;
+    overflow-y: auto;
+}
+
+.left {
+    float: left;
+    clear: both;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: #ffa76e;
+    border: 1px solid grey;
+    border-radius: 60px;
+}
+
+.right {
+    float: right;
+    clear: both;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 15px;
+    background-color: #e80368;
+    border: 1px solid grey;
+    border-radius: 60px;
+}
+
+#messageInp {
+    text-align: left;
+    padding: 0.2rem 1rem;
+    max-width: 60rem;
+    display: block;
+    margin: auto;
+    width: 100%;
+    border: 0.1px solid black;
+    border-radius: 20px;
+}
+
+.btn {
+    background-color: grey;
+    display: block;
+    margin: 10px auto;
+    width: 6rem;
+    border-radius: 20px;
+    color: white;
+    border: 0;
+}
